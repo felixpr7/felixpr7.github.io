@@ -2860,6 +2860,7 @@ textarea.form-control-lg {
   --bs-btn-disabled-color: #fff;
   --bs-btn-disabled-bg: rgb(var(--bs-primary-rgb));
   --bs-btn-disabled-border-color: rgb(var(--bs-primary-rgb));
+  --mdb-btn-box-shadow-state:0 8px 9px -4px rgba(56.05, 107.35, 191.9, 0.3), 0 4px 18px 0 rgba(56.05, 107.35, 191.9, 0.2);
 }
 
 .btn-secondary {
@@ -11443,4 +11444,30 @@ aside, section {
 }
 div .text-center i {
   font-size: 4.5rem;
+}
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: rgb(var(--bs-primary-rgb));
+  
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: rgb(var(--bs-primary-rgb)) ;
+  
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: rgb(var(--bs-primary-rgb));
+  }
+  
+  @media (min-width: 768px) {
+  .gradient-form {
+  height: 100vh !important;
+  }
+  }
+  @media (min-width: 769px) {
+  .gradient-custom-2 {
+  border-top-right-radius: .3rem;
+  border-bottom-right-radius: .3rem;
+  }
+  }
+  button.btn.btn-primary {
+    box-shadow: var(--mdb-btn-box-shadow-state);
+    width: 100%;
 }
