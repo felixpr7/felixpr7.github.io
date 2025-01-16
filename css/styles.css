@@ -42,9 +42,9 @@
   --bs-danger: #dc3545;
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
-  --bs-primary-rgb: 15, 164, 175;
-  --bs-secondary-rgb: 2, 73, 80;
-  --bs-third-rgb: 0, 49, 53;
+  --bs-primary-rgb: 136, 189, 188;
+  --bs-secondary-rgb: 37, 78, 88;
+  --bs-third-rgb: 17, 45, 50;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 193, 7;
@@ -11065,7 +11065,7 @@ html {
   height: 100%;
   min-height: 100vh !important;
   position: fixed;
-  background: rgb(15, 164, 175);
+  background: rgb(var(--bs-primary-rgb));
   z-index: 900000000;
   top: 0px;
   display: table;
