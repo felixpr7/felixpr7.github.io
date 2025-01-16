@@ -11441,3 +11441,6 @@ aside, section {
 .team-member {
   margin-bottom: 2rem;
 }
+div .text-center i {
+  font-size: 4.5rem;
+}
